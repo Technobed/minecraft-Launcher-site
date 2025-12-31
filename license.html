@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>License - Minecraft Launcher</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar fade-in">
+    <ul>
+      <li><a id="nav_download" href="index.html#download-section">ダウンロード</a></li>
+      <li><a id="nav_addon" href="index.html#addon-section">アドオン管理</a></li>
+      <li><a id="nav_license" href="license.html">ライセンス</a></li>
+      <li><a id="nav_discord" href="https://discord.gg/BVeV6Cfz5G" target="_blank">Discord</a></li>
+    </ul>
+  </nav>
+
+  <!-- Language Switcher -->
+  <div class="lang-switcher fade-in">
+    <div class="lang-box">
+      <select id="languageSelect" class="lang-select">
+        <option value="ja">🇯🇵 日本語</option>
+        <option value="en">🇺🇸 English</option>
+        <option value="zh">🇨🇳 中文</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- License Content -->
+  <section class="feature-section fade-in" style="flex-direction: column; text-align: left; max-width: 900px;">
+    <h2 id="license_title">Minecraft Launcher 利用ライセンス</h2>
+
+    <pre id="license_text" style="
+      white-space: pre-wrap;
+      font-size: 16px;
+      line-height: 1.7;
+      opacity: 0.9;
+    ">読み込み中…</pre>
+
+    <!-- PDF Download Button -->
+    <a id="license_pdf" href="license.pdf" download class="download-btn" style="margin-top: 20px;">
+      PDF 版をダウンロード
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Technobed. All rights reserved.
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+  <script src="license.js"></script>
+
+</body>
+</html>
